@@ -8,6 +8,10 @@ body {
     height: 3300px;
 }
 
+img {
+    display: block;
+}
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
@@ -43,6 +47,7 @@ body {
 }
 
 .menu-nav {
+    display: flex;
     gap: 40px;
 }
 
