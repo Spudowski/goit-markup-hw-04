@@ -41,7 +41,7 @@ img {
     align-content: center;
 }
 
-.div-container {
+.container {
     display:flex;
     width: 1158px;
     margin: 0 auto;
@@ -111,14 +111,9 @@ ul {
 
 
 
-.first-section-bg {
+.first-section {
     background-color: #2E2F42;
-    width: auto;
-    height: 600px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding: 188px 0;
 }
 
 .header-main {
@@ -129,6 +124,7 @@ ul {
     letter-spacing: 0.02em;
     text-align: center;
     color: #ffffff;
+    max-width: 496px;
 }
 
 .visually-hidden {
@@ -152,9 +148,12 @@ ul {
     letter-spacing: 0.04em;
     color: #ffffff;
     font-family: "Roboto", sans-serif;
+    display: block;
     cursor: pointer;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 
 .button:hover {
