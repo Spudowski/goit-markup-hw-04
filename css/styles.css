@@ -11,8 +11,6 @@ body {
     color: #434455;
     font-size: 16px;
     letter-spacing: 0.02em;
-    width: 1440px;
-    height: 3300px;
 }
 
 img {
@@ -42,13 +40,8 @@ img {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+    outline: 2px solid red;
 }
-
-.header-wrap {
-    display: flex;
-    align-items: center;
-}
-
 .navigation {
     display:flex;
     align-items: center;
@@ -126,6 +119,11 @@ ul {
     color: #ffffff;
     max-width: 496px;
     margin-bottom: 48px;
+}
+
+.header-wrap {
+    display: flex;
+    align-items: center;
 }
 
 .visually-hidden {
@@ -242,6 +240,11 @@ ul {
     line-height: 1.11;
     text-transform: capitalize;
     color: #2e2f42;
+}
+
+.fourth-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .header-title {
