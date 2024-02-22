@@ -181,14 +181,33 @@ ul {
 }
 
 .second-list-container {
-    width: calc((100%-72px) /4)
+    width: calc((100%-72px)\4)
+}
+
+
+
+
+.third-section {
+    background-color: #f4f4fd;
+    height: 732px;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 0;
 }
 
 .section-list {
     background-color: #ffffff;
-    padding: 0;
-    margin: 0 24px;
+    width: calc((100% - 72px)\4);
+    border-radius: 0px 0px 4px 4px;
 }
+
+.worker-job {
+    padding: 32px 16px;
+}
+
 .list-header {
     display: flex;
     font-size: 20px;
@@ -197,21 +216,13 @@ ul {
     color: #2e2f42;
     font-weight: 500;
     margin-bottom: 8px;
-}
-
-.our-team-bground {
-    background-color: #f4f4fd;
-    height: 732px;
-    width: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    text-align:center;
 }
 
 .list-p {
     font-size: 16px;
     line-height: 1.5;
+    text-align: center;
 }
 
 .our-team-section {
@@ -239,6 +250,7 @@ ul {
     color: #2e2f42;
     display: flex;
     justify-content: center;
+    margin-bottom: 72px;
 }
 
 .portfolio-container {
