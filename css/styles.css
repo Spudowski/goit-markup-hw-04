@@ -1,3 +1,10 @@
+*
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
 body {
     font-family: "Roboto", sans-serif;
     background-color: #ffffff;
@@ -34,7 +41,7 @@ img {
     align-content: center;
 }
 
-.div-container .container {
+.div-container {
     display:flex;
     width: 1158px;
     margin: 0 auto;
