@@ -35,8 +35,18 @@ img {
     border-bottom: 1px solid #e7e9fc;
 }
 
+.header-wrap {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 1158px;
+}
+
 .container {
     display:flex;
+    flex-direction: column;
+    align-items: center;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
@@ -121,11 +131,6 @@ ul {
     margin-bottom: 48px;
 }
 
-.header-wrap {
-    display: flex;
-    align-items: center;
-}
-
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -176,6 +181,7 @@ ul {
 
 .list-container {
     display: flex;
+    list-style: none;
     gap:24px
 }
 
@@ -266,11 +272,12 @@ ul {
 }
 
 .portfolio-list {
-    width: calc((100%-48px)/3)
+    width: calc((100%-48px)\3)
 }
 
 .team-container {
     display: flex;
+    list-style: none;
     gap: 24px;
 }
 
