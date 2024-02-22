@@ -10,29 +10,32 @@
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet"
         />
+    <link rel="modern-normalize" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" />
     <title>WebStudio</title>
 </head>
     <body>
-        <header>
-            <nav class="navigation">
-            <!-- header left side -->
-                <a href="./index.html" class="logo">Web<span class="studio">Studio</span></a>
-                    <ul class="">
-                        <li><a href="./index.html" class="link">Studio</a></li>
-                        <li><a href="" class="link">Portfolio</a></li>
-                        <li><a href="" class="link">Contacts</a></li>
-                    </ul>
-            </nav>
+        <header class="header-container">
+            <div class="div-container">
+                <nav class="navigation">
+                <!-- header left side -->
+                    <a href="./index.html" class="logo">
+                        Web<span class="studio">Studio</span>
+                    </a>
+                        <ul class="menu-nav">
+                            <li><a href="./index.html" class="link">Studio</a></li>
+                            <li><a href="" class="link">Portfolio</a></li>
+                            <li><a href="" class="link">Contacts</a></li>
+                        </ul>
+                </nav>
+            </div>
             <!-- header right side -->
-            <address class="address-list">
-                <ul>
+            <address class="address"">
+                <ul class="address-nav">
                     <li><a href="mailto:info@devstudio.com" class="address-link">info@devstudio.com</a></li>
                     <li><a href="tel:+110001111111" class="address-link">+11 (000) 111-11-11</a></li>
                 </ul>    
             </address>
         </header>
-    <br>
-    <br>
 
         <main>
             <section class="first-section-bg">
@@ -44,8 +47,8 @@
 
             <section class="second-section">
                 <!-- 4 colums section -->
-                <h2 class="header-title">Something to delete</h2>
-                <ul>
+                <h2 class="visually-hidden">Columns</h2>
+                <ul class="list-container">
                     <li>
                         <h3 class="list-header">
                             Strategy
@@ -93,7 +96,7 @@
             <!-- Our Team section -->
             <section class="our-team-bground">
                 <h2 class="header-title">Our Team</h2>
-                    <ul>
+                    <ul class="team-container">
                         <li class="section-list">
                             <img src="./images/photo1.jpg"
                             alt="Smiling Mark Guerrero"
@@ -138,7 +141,7 @@
 
             <section>
                 <h2 class="header-title">Our Portfolio</h2>
-                <ul>
+                <ul class="portfolio-container">
                     <li class="section-list">
                         <img src="./images/image1.jpg" 
                         alt="Banking App"

@@ -4,12 +4,15 @@ body {
     color: #434455;
     font-size: 16px;
     letter-spacing: 0.02em;
+    width: 1440px;
+    height: 3300px;
 }
 
 .logo {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
+    margin: 12px 24px;
     line-height: 1.17;
     letter-spacing: 0.03em; 
     text-decoration: none;
@@ -17,12 +20,43 @@ body {
     color: #4D5AE5
 }
 
+.header-container {
+    width: 1440px;
+    height:72px;
+    display: flex;
+    border-bottom: 1px solid #e7e9fc;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.div-container .container {
+    display:flex;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.navigation {
+    display:flex;
+    align-items: center;
+}
+
+.menu-nav {
+    gap: 40px;
+}
+
+.logo:first-child {
+    margin-right: 76px;
+}
+
 span {
     color: #2e2f42;
 }
 
-.address-list {
-    font-style: normal;
+.address-nav {
+    display: flex;
+    gap: 40px;
 }
 
 .link {
@@ -30,10 +64,12 @@ span {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
+    margin: 12px 10px;
     letter-spacing: 0.02em;
-    text-align: left;
+    text-align: center;
     text-decoration: none;
     color: #2E2F42;
+    padding: 24px 0;
 }
 
 .address-link {
@@ -41,6 +77,7 @@ span {
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
+    margin: 12px 10px;
     letter-spacing: 0.02em;
     text-align: left;
     text-decoration: none;
@@ -60,6 +97,18 @@ ul {
     letter-spacing: 0.02em;
 }
 
+
+
+.first-section-bg {
+    background-color: #2E2F42;
+    width: auto;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .header-main {
     font-family: "Roboto", sans-serif;
     font-size: 56px;
@@ -67,11 +116,20 @@ ul {
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #ffffff
+    color: #ffffff;
 }
 
-.first-section-bg {
-    background-color: #2E2F42;
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .button {
@@ -83,6 +141,8 @@ ul {
     color: #ffffff;
     font-family: "Roboto", sans-serif;
     cursor: pointer;
+    width: 169px;
+    height: 56px;
 }
 
 .button:hover {
@@ -94,21 +154,30 @@ ul {
 }
 
 .second-section {
+    height: 350px;
     text-align: center;
     text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.header-title {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    text-transform: capitalize;
-    color: #2e2f42;
+.list-container {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
 }
 
+
+
+.section-list {
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0 24px;
+}
 .list-header {
+    display: flex;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -118,6 +187,12 @@ ul {
 
 .our-team-bground {
     background-color: #f4f4fd;
+    height: 732px;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .list-p {
@@ -140,12 +215,40 @@ ul {
     color: #2e2f42;
 }
 
-.section-list {
-    background-color: #ffffff;
+.header-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
+    display: flex;
+    justify-content: center;
 }
+
+.portfolio-container {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.team-container {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+
 
 .footer-bground {
     background-color: #2E2F42;
+    width: auto;
+    height: 312px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 .studio-second {
@@ -160,4 +263,10 @@ ul {
     letter-spacing: 0.02em;
     text-align: left;
     color: #F4F4FD;
+    width: 264px;
+    height: 72px;
+}
+
+.logo .footer-p {
+    margin-left: 156px;
 }
