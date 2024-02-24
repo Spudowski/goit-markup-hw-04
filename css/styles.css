@@ -44,6 +44,7 @@ img {
 }
 
 .container {
+    display: flex;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
@@ -183,7 +184,7 @@ ul {
 }
 
 .second-list-container {
-    flex-basis: calc((100% - 3 * 24px) / 4);
+    width: calc((100% - 72px) / 4);
 }
 
 .third-section {
@@ -282,11 +283,13 @@ ul {
     margin-bottom: 8px;
 }
 
-
-
 .footer-bground {
     background-color: #2E2F42;
     padding: 100px 0;
+}
+
+.footer-cont {
+    display: inline-block;
 }
 
 .studio-second {
