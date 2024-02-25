@@ -43,7 +43,7 @@ img {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
 }
 .navigation {
     display:flex;
@@ -173,7 +173,7 @@ ul {
 }
 
 .second-section {
-    padding: 128px 156px;
+    padding: 120px 0;
 }
 
 .second-list-container {
@@ -243,6 +243,7 @@ ul {
     color: #2e2f42;
     display: flex;
     justify-content: center;
+    text-align: center;
     margin-bottom: 72px;
 }
 
