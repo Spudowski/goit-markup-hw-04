@@ -213,6 +213,20 @@ ul {
     margin: 0;
 }
 
+.list-p-second { 
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    margin: 0;
+}
+
+.list-p-third {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    margin: 0;
+}
+
 .our-team-section {
     background-color: #F4F4FD;
 }
