@@ -30,18 +30,16 @@ img {
 
 .header-container {
     border-bottom: 1px solid #e7e9fc;
+    margin: 24px 0;
 }
 
 .header-wrap {
     display: flex;
     align-items: center;
-    margin: 0 auto;
-    padding: 0 auto;
-    width: 1158px;
 }
 
 .container {
-    display: flex;
+    /* display: flex; */
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
@@ -55,6 +53,7 @@ img {
 .menu-nav {
     display: flex;
     gap: 40px;
+    list-style: none;
 }
 
 .logo:first-child {
@@ -68,6 +67,7 @@ span {
 .address-nav {
     display: flex;
     gap: 40px;
+    list-style: none;
 }
 
 .link {
@@ -106,6 +106,8 @@ ul {
     color: #434455;
     font-size: 16px;
     letter-spacing: 0.02em;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -123,7 +125,7 @@ ul {
     letter-spacing: 0.02em;
     color: #ffffff;
     max-width: 496px;
-    margin-bottom: 48px;
+    margin: 0 auto 48px auto;
 }
 
 .visually-hidden {
@@ -153,6 +155,7 @@ ul {
     height: 56px;
     border: none;
     border-radius: 4px;
+    margin: 0 auto;
 }
 
 .button:hover {
@@ -163,25 +166,18 @@ ul {
     background-color: #404BBF;
 }
 
-.second-section {
-    height: 350px;
-    text-align: center;
-    text-decoration: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    padding: 120px 0;
-}
-
 .list-container {
     display: flex;
     list-style: none;
     gap:24px;
 }
 
+.second-section {
+    padding: 128px 156px;
+}
+
 .second-list-container {
-    width: calc((100% - 72px) /4);
+    flex-basis: calc((100% - 72px) /4);
 }
 
 .third-section {
@@ -207,13 +203,14 @@ ul {
     color: #2e2f42;
     font-weight: 500;
     margin-bottom: 8px;
-    text-align:center;
+    justify-content: center;
 }
 
 .list-p {
     font-size: 16px;
     line-height: 1.5;
     text-align: center;
+    margin: 0;
 }
 
 .our-team-section {
@@ -281,7 +278,6 @@ ul {
 
 .footer-cont {
     display: inline-block;
-    margin: 0 auto;
 }
 
 .studio-second {
