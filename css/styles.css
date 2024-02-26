@@ -30,7 +30,7 @@ img {
 
 .header-container {
     border-bottom: 1px solid #e7e9fc;
-    margin: 24px 0;
+    padding: 24px 0;
 }
 
 .header-wrap {
@@ -48,6 +48,11 @@ img {
 .navigation {
     display:flex;
     align-items: center;
+    margin-right: auto
+}
+
+.address {
+    font-style: normal;
 }
 
 .menu-nav {
@@ -75,7 +80,6 @@ span {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    margin: 12px 10px;
     letter-spacing: 0.02em;
     text-align: center;
     text-decoration: none;
@@ -86,9 +90,8 @@ span {
 .address-link {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 24px;
-    margin: 12px 10px;
     letter-spacing: 0.02em;
     text-align: left;
     text-decoration: none;
@@ -196,34 +199,30 @@ ul {
 }
 
 .list-header {
-    display: flex;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
     font-weight: 500;
     margin-bottom: 8px;
-    justify-content: center;
+    text-align: center;
 }
 
 .list-p {
     font-size: 16px;
     line-height: 1.5;
-    text-align: center;
     margin: 0;
 }
 
 .list-p-second { 
     font-size: 16px;
     line-height: 1.5;
-    text-align: center;
     margin: 0;
 }
 
 .list-p-third {
     font-size: 16px;
     line-height: 1.5;
-    text-align: center;
     margin: 0;
 }
 
@@ -288,9 +287,9 @@ ul {
     padding: 100px 0;
 }
 
-.footer-cont {
-    /* display: inline-block; */
-}
+/* .footer-cont {
+    display: inline-block;
+} */
 
 .studio-second {
     color: #f4f4fd;
@@ -318,5 +317,4 @@ ul {
     text-align: left;
     color: #F4F4FD;
     max-width: 264px;
-    height: 72px;
 }
