@@ -254,7 +254,8 @@ ul {
 
 .circle-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 24px;
     padding: 8px 16px 0 16px;
 }
 
@@ -264,8 +265,23 @@ ul {
     width: 40px;
     height: 40px;
 }
+.icons {
+    width: 100%;
+    height: 100%;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons:hover {
+    background-color: #404BBF;
+
+}
 
 .advantages-icon-team {
+    fill: #f4f4fd;
     position: relative;
     top: 12px;
     left: 12px;
