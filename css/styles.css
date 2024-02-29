@@ -116,7 +116,6 @@ span {
 
 .current::after {
     content: " ";
-    border-bottom: 10px solid blue;
     width: 48px; 
     height: 4px;
     top: 44px; 
@@ -134,9 +133,8 @@ ul {
         /* Main First Section  */
 
 .first-section {
-    background: 
-        url(/images/bg-first-sec.jpg),
-        rgba(46, 47, 66, 0.7);
+    background-image: url(/images/bg-first-sec.jpg);
+    background-repeat: no-repeat;
     padding: 188px 0;
 }
 
@@ -229,6 +227,12 @@ ul {
     width: calc((100% - 72px) / 4);
     background-color: #ffffff;
     border-radius: 0px 0px 4px 4px;
+    
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+    
+        box-shadow: 0px 1px 1px 0px rgba(46, 47, 66, 0.16);
+    
+        box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .circle-container {
@@ -325,6 +329,10 @@ ul {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+}
+
+.portfolio-list:hover {
+    box-shadow: 0px 15px 30px -10px #42445A;
 }
 
 .portfolio-list {
