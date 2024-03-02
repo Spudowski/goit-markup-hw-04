@@ -320,19 +320,7 @@ ul {
     margin-bottom: 8px;
 }
 
-.list-p-portfolio {
-    font-size: 16px;
-    line-height: 1.5;
-    margin: 0;
-    letter-spacing: 0.02em;
-    color: #f4f4fd;
-    padding: 40px 32px;
-    background-color: #4d5ae5;
-    height: 100%;
-    width: 100%;
-    transform: translateY(100%);
-    transform: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+
 
 .list-p-team {
     font-size: 16px;
@@ -383,6 +371,23 @@ ul {
     column-gap: 24px;
     row-gap: 48px;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.app-desc {
+    position: relative;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    padding: 40px 32px;
+    background-color: #4d5ae5;
+    height: 100%;
+    width: 100%;
+    transform: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.app-desc:hover {
+    transform: translateY(-100%);
 }
 
 .portfolio-list {
@@ -461,6 +466,7 @@ ul {
     text-align: left;
     color: #F4F4FD;
     max-width: 264px;
+    margin-bottom: 16px;
 }
 
 .footer-social-p {
@@ -471,7 +477,6 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
-    margin-bottom: 16px;
 }
 
 .circle-container-footer {
@@ -491,7 +496,7 @@ ul {
 }
 
 .icons-footer:hover,
-.icons-footer:active {
+.icons-footer:focus {
     background-color: #31d0aa;
 }
 
