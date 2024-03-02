@@ -318,6 +318,7 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     margin: 0;
+    letter-spacing: 0.02em;
 }
 
 .list-p-team {
@@ -385,7 +386,9 @@ ul {
     gap: 24px;
 }
 
-.app-section {
+.app-container {
+    position: relative;
+    overflow: visible;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
