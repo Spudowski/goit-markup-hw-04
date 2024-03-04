@@ -375,7 +375,7 @@ ul {
     margin-bottom: 72px;
 }
 
-.portfolio-container {
+.portfolio-container .slider {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
