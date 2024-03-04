@@ -17,6 +17,14 @@ img {
     display: block;
 }
 
+p {
+    margin: 0;
+}
+
+h3 {
+    margin-top: 0;
+}
+
 
 
             /* Header  */
@@ -320,6 +328,7 @@ ul {
     color: #2e2f42;
     font-weight: 500;
     margin-bottom: 8px;
+    margin-top: 0;
 }
 
 
@@ -390,19 +399,12 @@ ul {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
-.app-container:hover {
-    transform: translateY(-100%);
-}
-
 .portfolio-list {
     width: calc((100% - 48px) /3);
-    transition: box-shadow  250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-list:hover {
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-            0 1px 1px 0 rgba(46, 47, 66, 0.16),
-            0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    transform: translateY(0%);
 }
 
 .team-container {
@@ -416,9 +418,12 @@ ul {
 .app-container {
     position: relative;
     overflow: hidden;
-    border: 1px solid #e7e9fc;
+}
+
+.app-cont-desc {
+    padding: 32px 16px;
+    border: 1px solid #E7E9FC;
     border-top: none;
-    margin-bottom: 8px;
 }
 
         /* Footer  */
