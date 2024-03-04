@@ -404,6 +404,7 @@ ul {
 }
 
 .portfolio-list:hover {
+    box-shadow:rgba(46, 47, 66, 0.08), rgba(46, 47, 66, 0.16), rgba(46, 47, 66, 0.7);
     transform: translateY(0%);
 }
 
